@@ -2,10 +2,23 @@
   "killSwitch": false,
   "minVersion": "1.2.1",
   "freeDisabledAfter": "2026-12-31T23:59:59+08:00",
-  "features": { "pdd": true, "jd": true, "taobao": true, "export": true },
+  "features": {
+    "pdd": true,
+    "jd": true,
+    "tb": true,
+    "taobao": true,
+    "tmall": true,
+    "export": true
+  },
   "revoked": [],
   "unlockCode": "MOCONA-2026",
   "unlockCodeHash": "bb99ba79",
   "message": "免费试用已结束，请添加微信 cl9405 购买激活码解锁",
-  "buyUrl": "https://你的收款页或用个人收款码图片链接"
+  "buyUrl": "https://cdn.jsdelivr.net/gh/cl9405/catchbrand@main/pay.html",
+  "latest": {
+    "version": "1.2.8",
+    "publishedAt": "2026-10-15",
+    "notes": "新增一键发版脚本 + 淘宝天猫采集加固",
+    "url": "https://github.com/cl9405/catchbrand/releases/download/v1.2.8/plugin_v1.2.8.zip"
+  }
 }
