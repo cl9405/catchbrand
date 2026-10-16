@@ -16,9 +16,23 @@
   "message": "免费试用已结束，请添加微信 cl9405 购买激活码解锁",
   "buyUrl": "https://cdn.jsdelivr.net/gh/cl9405/catchbrand@main/pay.html",
   "latest": {
-    "version": "1.2.8",
+    "version": "1.3.8",
     "publishedAt": "2026-10-15",
-    "notes": "新增一键发版脚本 + 淘宝天猫采集加固",
-    "url": "https://github.com/cl9405/catchbrand/releases/download/v1.2.8/plugin_v1.2.8.zip"
-  }
+    "notes": "修复bat双击失败：bat改GBK编码(无BOM)避免中文乱码导致CSV查找失败；python定位改为遍历所有python实例取第一个能import库的(避开无库的managed python)；双击现在正确生成含店铺/价格的电商采集_带图片.xlsx",
+    "url": "https://github.com/cl9405/catchbrand/releases/download/v1.3.8/plugin_v1.3.8.zip"
+  },
+  "licenses": [
+    {
+      "h": "550305ea87fe9a6ccad31fac01c52815",
+      "until": "2027-10-15",
+      "who": "自用测试",
+      "note": "首批测试客户"
+    },
+    {
+      "h": "7f25576914449231b23f70cbea3cc7b5",
+      "until": "2027-10-15",
+      "who": "自用测试",
+      "note": "首批测试客户"
+    }
+  ]
 }
